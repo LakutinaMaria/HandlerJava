@@ -23,7 +23,6 @@ public class Sender implements SenderInterface {
 
     @Override
     public Duration timeout() {
-        // Adjust the timeout duration as needed
         return Duration.ofMillis(100);
     }
 
@@ -51,4 +50,4 @@ public class Sender implements SenderInterface {
     }
 }
 
-}
+
